@@ -1,5 +1,13 @@
 body {
   font: 1em sans-serif;
-  text-align: right;
-  display: contents;
+  display: flexbox;
+  background-color: antiquewhite;
+}
+
+main {
+  background-color: aliceblue;
+  margin: auto;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
 }
