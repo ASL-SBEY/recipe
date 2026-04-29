@@ -1,13 +1,28 @@
 body {
-  font: 1em sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flexbox;
   background-color: antiquewhite;
 }
 
 main {
+  border-radius: 20px;
   background-color: aliceblue;
   margin: auto;
   justify-content: center;
   height: 100%;
   width: 60%;
+  display: block;
+}
+section {
+  padding-left: 5%;
+  left: auto;
+  right: auto;
+}
+
+.image img {
+  padding: 20px 2px;
+  width: 95%;
+  height: 350px;
+  border: 30px;
+  border-radius:;
 }
