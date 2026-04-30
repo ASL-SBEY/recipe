@@ -8,12 +8,11 @@
   </head>
   <body>
     <main>
-      <section class="image">
-        <!-- the food image -->
-        <img src="/image/Omelet.jpg" alt="Omelet" />
-      </section>
       <!-- details -->
       <section class="details">
+        <!-- the food image -->
+        <img class="image" src="/image/Omelet.jpg" alt="Omelet" />
+
         <h1>Simple Omelette Recipe</h1>
 
         <p>
@@ -22,13 +21,15 @@
           optionally filled with your choice of cheese, vegetable, or meats.
         </p>
 
-        <!-- preparation time -->
-        <h3>Preparation Time</h3>
-        <ul>
-          <li><strong>Total</strong>: Approximately 10 minutes</li>
-          <li><strong>Preparetion:</strong> 5 minutes</li>
-          <li><strong>Cooking:</strong> 5 minutes</li>
-        </ul>
+        <div class="Preparation-time">
+          <!-- preparation time -->
+          <h3>Preparation Time</h3>
+          <ul>
+            <li><strong>Total</strong>: Approximately 10 minutes</li>
+            <li><strong>Preparetion:</strong> 5 minutes</li>
+            <li><strong>Cooking:</strong> 5 minutes</li>
+          </ul>
+        </div>
       </section>
       <section class="Ingredients">
         <h2>Ingredients</h2>
@@ -91,7 +92,7 @@
           additional fillings.
         </p>
 
-        <table border="1">
+        <table>
           <tr>
             <td>Calories</td>
             <td>277kcal</td>
