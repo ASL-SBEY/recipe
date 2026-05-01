@@ -57,3 +57,7 @@ h2 {
 td {
   border-bottom: 1px solid grey;
 }
+
+#fat td {
+  border-bottom: 0px;
+}
